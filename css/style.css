@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial;
+    font-size: 14px;
+    color: #7f7f7f;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #7f7f7f;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .nav-right-section{
+    height: auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+nav .nav-right-section img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+nav .nav-right-section .apps-icon{
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section a{
+    margin-right: 20px;
+}
+main{
+    margin-top: 105px;
+    text-align: center;
+}
+main .main-logo{
+    margin-bottom: 25px;
+}
+main .main-input{
+    width: 482px;
+    margin: 0 auto;
+}
+main .main-input-container{
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-input-container input{
+    height: 40px;
+    width: 380px;
+    outline: none;
+    border: none;
+    margin: 0 15px;
+}
+.main-input-container .search-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+.main-input-container .mic-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+main .main-buttons{
+    width: 582px;
+    margin: 30px auto;
+}
+main .main-buttons div{
+    display: inline-block;
+    margin: 0 5px
+}
+main .main-buttons button{
+    height: 34px;
+    padding: 0 16px;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: none;
+    color: #3c4043;
+}
+main .main-text{
+    font-size: small;
+}
+main .main-text a{
+    color: #1a0dab;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+}
+footer section{
+    border-top: 1px solid #dfe1e5;
+    background-color: #f2f2f2;
+    height: 40px;
+}
+footer .footer-top{
+    display: flex;
+    align-items: center;
+}
+footer .footer-top span{
+    margin: 0 30px; 
+}
+footer .footer-botton{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 0 15px;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    margin: 0px 15px;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+a:hover{
+    text-decoration: underline;
+}
+main .main-buttons button:hover {
+    box-shadow: inset 0 0 0 1px #c6c6c6;
+}
